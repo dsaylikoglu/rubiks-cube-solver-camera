@@ -8,6 +8,7 @@ l_face = [[], [], []]
 u_face = [[], [], []]
 d_face = [[], [], []]
 cube_colors = {"f": f_face, "r": r_face, "b": b_face, "l": l_face, "u": u_face, "d": d_face}
+cube_done = False;
 
 green_lower = (40, 50, 50)  # lower bound for green color in HSV
 green_upper = (80, 255, 255)  # upper bound for green color in HSV
